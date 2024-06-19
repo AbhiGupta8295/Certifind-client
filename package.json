@@ -37,5 +37,6 @@
     "eslint-config-next": "14.0.4",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.4.0"
-  }
+  },
+  "proxy": "https://reliable-jalebi-fa3277.netlify.app/.netlify/functions/api"
 }

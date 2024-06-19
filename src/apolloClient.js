@@ -2,7 +2,7 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5001/', // Replace with your GraphQL server endpoint
+  uri: 'https://zesty-malabi-f16553.netlify.app/.functions/api', // Replace with your GraphQL server endpoint
   cache: new InMemoryCache(),
 });
 
